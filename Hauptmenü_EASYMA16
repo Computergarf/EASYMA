@@ -1,7 +1,7 @@
 'ProgramMode:RUN
 ' Hauptmenue
 Lbl 0
-Menu "Bereich waehlen","Algebra",1,"Info",2,"Beenden",9
+Menu "Bereich w_#E605_hlen","Algebra",1,"Info",2,"Beenden",9
 
 ' ALGEBRA-MENU
 Lbl 1
