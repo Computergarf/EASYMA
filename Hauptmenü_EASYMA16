@@ -1,2 +1,21 @@
-Menu "EASYMA16" , "Algebra", A, "Beenden", B
+'ProgramMode:RUN
+' Hauptmenue
+Lbl 0
+Menu "Bereich waehlen","Algebra",1,"Info",2,"Beenden",9
 
+' ALGEBRA-MENU
+Lbl 1
+Prog "EMA1"
+Goto 9
+
+' INFO-MENU
+Lbl 2
+"INFO"
+"Math2016 V.0.1"
+"github.com/marcelb98/"
+"   EASYMA"
+Goto 9
+
+' PROGRAMM BEENDEN
+Lbl 9
+Stop
